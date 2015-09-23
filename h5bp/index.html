@@ -12,8 +12,27 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!--
+                    ____
+                _.-'78o `"`-~._
+            ,o888o.  .o888o,   ''-.
+          ,88888P  `78888P..______.]           ___                       ___           ___     
+         /_..__..-~-~"" | /    __.'           /\__\          ___        /\  \         /\  \    
+         `-._      /""| _..-''               /::|  |        /\  \      /::\  \       /::\  \   
+             "`-~-~-\  `\                   /:|:|  |        \:\  \    /:/\:\  \     /:/\:\  \  
+                     |   ;.-""-~..         /:/|:|__|__      /::\__\  /::\~\:\  \   /:/  \:\  \ 
+                     | ,8o.  o88. `.      /:/ |::::\__\  __/:/\/__/ /:/\:\ \:\__\ /:/__/ \:\__\
+                     `;888P  `788P  :     \/__/~~/:/  / /\/:/  /    \/_|::\/:/  / \:\  \ /:/  /
+               .o""-.|`-._         ./           /:/  /  \::/__/        |:|::/  /   \:\  /:/  / 
+              J88 _.-/    ";"-P-~-~'           /:/  /    \:\__\        |:|\/__/     \:\/:/  /  
+              `-~'\`|     /  /                /:/  /      \/__/        |:|  |        \::/  /   
+                  | /     |  |                \/__/                     \|__|         \/__/    
+                  \|     /   |                                                                 
+                   `-~-~-`-~-'                                                                 
+        Have fun! 
+        -->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,17 +40,42 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="index.html" class="navbar-brand"></a>
-        </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <header role="banner">
+            <nav role="navigation">
+                <div class="conainer">
+                     <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand">name</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Linke</a>
+                            </li>
+                            <li>
+                                <a href="#">Linke</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main">
+            <h1>Min heading</h1>
+            <p>Content specific to this page goes here.</p>
+        </main>
+        <footer roler="contentinfo">
+            <p><small>Copyright &cop;Company Name</small></p>
+        </footer>
+       
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
